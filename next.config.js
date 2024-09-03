@@ -2,6 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-}
+  basePath: '/prude_portfolio', 
+  assetPrefix: '/prude_portfolio/', 
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
