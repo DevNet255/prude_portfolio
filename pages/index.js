@@ -5,9 +5,9 @@ import ParticlesContainer from '../components/ParticlesContainer';
 import ProjectsBtn from '../components/ProjectsBtn';
 import Avatar from '../components/Avatar';
 // framer motion
-import {motion} from 'framer-motion';
+import { motion } from 'framer-motion';
 // variants
-import {fadeIn} from '../variants';
+import { fadeIn } from '../variants';
 // typewriter effect
 import Typewriter from "typewriter-effect";
 
@@ -25,7 +25,7 @@ const Home = () => {
             exit='hidden'
             className='h1'
           >
-            Hello I'm <br />Prudence Pallangyo<br />{' '}
+            Hello I&apos;m <br />Prudence Pallangyo<br />{' '}
             <span className='text-accent'>
               <Typewriter
                 options={{
@@ -45,11 +45,11 @@ const Home = () => {
             exit='hidden'
             className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'
           >
-          I’m a Network Engineer and Web Developer, blending technical expertise with creative innovation. 
-          I troubleshoot and manage complex network systems, ensuring seamless connectivity and robust performance.
-           On the web development side, I craft dynamic, user-focused applications that not only look great 
-           but function flawlessly. My unique skill set allows me to deliver solutions that are both highly 
-           reliable and exceptionally innovative.
+            I’m a Network Engineer and Web Developer, blending technical expertise with creative innovation. 
+            I troubleshoot and manage complex network systems, ensuring seamless connectivity and robust performance.
+            On the web development side, I craft dynamic, user-focused applications that not only look great 
+            but function flawlessly. My unique skill set allows me to deliver solutions that are both highly 
+            reliable and exceptionally innovative.
           </motion.p>
           {/* btn */}
           <div className='flex justify-center xl:hidden relative'>

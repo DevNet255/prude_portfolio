@@ -24,18 +24,22 @@ export const aboutData = [
       {
         title: 'Web Development',
         icons: [
-          <FaHtml5 />,
-          <FaCss3 />,
-          <FaJs />,
-          <FaReact />,
-          <SiNextdotjs />,
-          <SiFramer />,
-          <FaWordpress />,
+          <FaHtml5 key="html5" />,
+          <FaCss3 key="css3" />,
+          <FaJs key="js" />,
+          <FaReact key="react" />,
+          <SiNextdotjs key="nextjs" />,
+          <SiFramer key="framer" />,
+          <FaWordpress key="wordpress" />,
         ],
       },
       {
         title: 'UI/UX Design',
-        icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
+        icons: [
+          <FaFigma key="figma" />,
+          <SiAdobexd key="adobexd" />,
+          <SiAdobephotoshop key="photoshop" />,
+        ],
       },
     ],
   },
@@ -115,23 +119,27 @@ const About = () => {
       <div className='container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6'>
         {/* text */}
         <div className='flex-1 flex flex-col justify-center'>
-          <motion.h2 variants={fadeIn('right', 0.2)}
-           initial="hidden" 
-           animate="show"
-          exit="hidden"
-          className='h2'>
-          Seamless  <span className='text-accent'>connections </span> Fuel innovative solutions.
+          <motion.h2
+            variants={fadeIn('right', 0.2)}
+            initial="hidden"
+            animate="show"
+            exit="hidden"
+            className='h2'
+          >
+            Seamless <span className='text-accent'>connections </span> Fuel innovative solutions.
           </motion.h2>
-          <motion.p variants={fadeIn('right', 0.4)}
-           initial="hidden" 
-           animate="show"
-          exit="hidden"
-          className='max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'>
-          As a Network Engineer and Web Developer, I specialize in designing, implementing,
-           and managing complex network systems to ensure seamless communication and data flow. 
-           On the web development side, I build and maintain dynamic, user-friendly applications 
-           that work smoothly with the underlying network infrastructure. My expertise allows 
-           me to bridge the gap between reliable networking and innovative web development, bringing
+          <motion.p
+            variants={fadeIn('right', 0.4)}
+            initial="hidden"
+            animate="show"
+            exit="hidden"
+            className='max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'
+          >
+            As a Network Engineer and Web Developer, I specialize in designing, implementing,
+            and managing complex network systems to ensure seamless communication and data flow.
+            On the web development side, I build and maintain dynamic, user-friendly applications
+            that work smoothly with the underlying network infrastructure. My expertise allows
+            me to bridge the gap between reliable networking and innovative web development, bringing
             both stability and creativity to the projects I work on.
           </motion.p>
         </div>
@@ -140,11 +148,11 @@ const About = () => {
           <div className='flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4'>
             {aboutData.map((item, itemIndex) => {
               return (
-                <motion.div 
-                variants={fadeIn('left', 0.2)}
-                initial="hidden" 
-                animate="show"
-               exit="hidden"
+                <motion.div
+                  variants={fadeIn('left', 0.2)}
+                  initial="hidden"
+                  animate="show"
+                  exit="hidden"
                   key={itemIndex}
                   className={`${
                     index === itemIndex
