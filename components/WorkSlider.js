@@ -15,12 +15,12 @@ export const WorkSlides = {
         },
         {
           title: 'title',
-          path: '/naurey.jpg',
+          path: './naurey.jpg',
           url: 'https://naureygoldensoils.ac.tz/', 
         },
         {
           title: 'title',
-          path: '/langalang.jpg',
+          path: './langalang.jpg',
           url: 'https://langalangaecofarm.co.tz/', 
         },
       ],
@@ -29,22 +29,22 @@ export const WorkSlides = {
       images: [
         {
           title: 'title',
-          path: '/langalang.jpg',
+          path: './langalang.jpg',
           url: 'https://example.com/page5', // Add the URL here
         },
         {
           title: 'title',
-          path: '/Nickwildnature.jpg',
+          path: './Nickwildnature.jpg',
           url: 'https://example.com/page6', // Add the URL here
         },
         {
           title: 'title',
-          path: '/pgc.jpg',
+          path: './pgc.jpg',
           url: 'https://example.com/page7', // Add the URL here
         },
         {
           title: 'title',
-          path: '/naurey.jpg',
+          path: './naurey.jpg',
           url: 'https://example.com/page8', // Add the URL here
         },
       ],
