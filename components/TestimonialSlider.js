@@ -1,21 +1,21 @@
 // testimonial data
 export const testimonialData = [
   {
-    image: '/person.png',
+    image: './person.png',
     name: 'Alex Ndosi',
     position: 'Client',
     message:
       'Prudence delivered a stunning, fast, and reliable website. His expertise made a huge difference for us!',
   },
   {
-    image: '/person.png',
+    image: './person.png',
     name: 'Nickson Danielson',
     position: 'Client',
     message:
       'My website’s transformation was seamless and effective thanks to Prudence. I have seen great results in traffic and engagement.',
   },
   {
-    image: '/person.png',
+    image: './person.png',
     name: 'Hardson Mushi',
     position: 'Client',
     message:
