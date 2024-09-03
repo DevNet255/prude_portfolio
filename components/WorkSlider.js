@@ -5,12 +5,12 @@ export const WorkSlides = {
       images: [
         {
           title: 'title',
-          path: '/Nickwildnature.jpg',
+          path: './Nickwildnature.jpg',
           url: 'https://nickwildnature.com/', 
         },
         {
           title: 'title',
-          path: '/pgc.jpg',
+          path: './pgc.jpg',
           url: 'https://pgc.co.tz/', 
         },
         {
