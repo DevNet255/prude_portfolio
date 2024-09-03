@@ -5,7 +5,7 @@ export const WorkSlides = {
       images: [
         {
           title: 'title',
-          path: '/Nickwildnature.jg',
+          path: '/Nickwildnature.jpg',
           url: 'https://nickwildnature.com/', 
         },
         {
