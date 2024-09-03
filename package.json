@@ -1,8 +1,11 @@
 {
-  "name": "esportfolio",
+  "homepage": "https://github.com/DevNet255/my_Portfolio.git",
+  "name": "my_Portfolio",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -10,8 +13,10 @@
   },
   "dependencies": {
     "@next/font": "^13.4.4",
+    "emailjs-com": "^3.2.0",
     "framer-motion": "^10.12.16",
-    "next": "13.4.3",
+    "gh-pages": "^6.1.1",
+    "next": "^14.2.7",
     "react": "18.2.0",
     "react-countup": "^6.4.2",
     "react-dom": "18.2.0",
@@ -19,7 +24,9 @@
     "react-tsparticles": "^2.9.3",
     "swiper": "^9.4.0",
     "tailwind-scrollbar": "^3.0.4",
-    "tsparticles": "^2.9.3"
+    "tsparticles": "^2.9.3",
+    "typewriter": "^9.2.0",
+    "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
