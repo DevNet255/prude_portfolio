@@ -29,7 +29,7 @@ module.exports = {
       backgroundImage: {
         explosion: 'url("/prude_portfolio/bg-explosion.png")',
         circles: 'url("/prude_portfolio/circles.png")',
-        circleStar: 'url("/circle-star.svg")',
+        circleStar: 'url("/prude_portfolio/circle-star.svg")',
         site: 'url("/prude_portfolio/site-bg.svg")',
       },
       animation: {
