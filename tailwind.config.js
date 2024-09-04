@@ -28,9 +28,9 @@ module.exports = {
       },
       backgroundImage: {
         explosion: 'url("/prude_portfolio/bg-explosion.png")',
-        circles: 'url("../bg-circles.png")',
+        circles: 'url("/bg-circles.png")',
         circleStar: 'url("/circle-star.svg")',
-        site: 'url("/site-bg.svg")',
+        site: 'url("/prude_portfolio/site-bg.svg")',
       },
       animation: {
         'spin-slow': 'spin 6s linear infinite',
